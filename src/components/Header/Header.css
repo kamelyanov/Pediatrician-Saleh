@@ -1,27 +1,45 @@
 .header {
-
+  padding: 21px 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Inter, Arial, sans-serif;
 }
 
-.header__logo {
+.contacts__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px
+}
 
+.header__span {
+  font-size: 16px;
+  line-height: 21px;
+  color: #6E7177;
+}
+
+.contacts__number {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 35px;
+  color: #284795;
+  margin-right: 15px;
+}
+
+.contacts__link {
+  height: 30px;
+}
+
+.contacts__icon {
+  width: 30px;
+  height: 30px;
 }
 
 .header__contacts {
-
-}
-
-.contacts {
-
-}
-
-.contacts_number {
-
-}
-
-.contacts_tg {
-
-}
-
-.contacts_inst{
-  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px
 }
