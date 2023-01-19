@@ -1,0 +1,23 @@
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 60%;
+  margin: 15px auto 0;
+}
+
+.aboutMe__name {
+  margin: 0;
+}
+
+.aboutMe__foto {
+  height: 300px;
+  box-shadow: 5px;
+}
+
+.aboutMe__history {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+}
