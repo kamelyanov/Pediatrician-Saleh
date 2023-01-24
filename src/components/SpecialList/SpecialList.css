@@ -1,0 +1,27 @@
+.specialSection {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(228, 234, 243);
+  width: 75%;
+  margin: 15px auto 0;
+}
+
+.special_cards {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  margin: 0 auto 0;
+}
+
+.special_card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  
+}
+
+.card__image {
+  width: 100%;
+}
+
+
